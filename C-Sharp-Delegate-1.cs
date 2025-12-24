@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Custom EventArgs 
+// Implement a DownloadCompleted event with bytesReceived, duration, success.
+
+using System;
 
 class DownloadCompletedEventArgs : EventArgs
 {
